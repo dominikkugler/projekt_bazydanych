@@ -123,6 +123,7 @@ create table aktywnosc_nauka (
 	dzien_id int foreign key references dzien(id),
 	rzecz_do_nauki_id int foreign key references rzecz_do_nauki(id)
 );
+
 insert into uzytkownik values (1, 'Jan', 'Kowalski', 'jankowalski', '1990-01-01', 'jankowalski@gmail.com')
 insert into uzytkownik values (2, 'Adam', 'Nowak', 'adamnowak', '1990-01-01', 'adamnowak@icloud.com')
 insert into uzytkownik values (3, 'Anna', 'Kowalska', 'annakowalska', '1990-01-01', 'annakowalska@wp.pl')
